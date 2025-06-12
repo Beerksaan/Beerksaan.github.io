@@ -1,0 +1,148 @@
+/* body{
+    background-image: url(/img/photo-1626775238053-4315516eedc9.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 100vh;
+    max-width: 100vw;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+h1 {
+    text-align: center;
+    border: 5px solid black;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: white;
+    width: fit-content;
+    padding: 5px;
+    padding-right: 40px;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.button-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55%;
+    color: black;
+    height: 30px;
+
+}
+.button1{
+    width: 90px;
+    height: 60px;
+    color: black;
+    background-color: rgb(252, 58, 58);
+    font-size: x-large;
+    border-radius: 15px;
+    margin-right: 500px;
+}
+.button2{
+    width: 90px;
+    height: 60px;
+    color: black;
+    background-color: green;
+    font-size: x-large;
+    border-radius: 15px;
+    margin-left:450px;
+}
+.restart{
+    width: 100px;
+    height: 65px;
+    color: black;
+    background-color: darkred;
+    font-size: x-large;
+    border-radius: 15px;
+    text-align: center;
+
+}
+
+
+button:hover{
+    color: black;
+
+}
+
+.button1:active{
+  background-color: #e03f3f;
+  box-shadow: 0 5px #1a1818;
+  transform: translateY(4px);
+}
+ .button2:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #1a1818;
+    transform: translateY(4px);
+ }
+
+ h2{
+    margin-left: 880px;
+    font-size: xx-large;
+    color:bisque ;
+    
+
+
+    
+ } */
+
+ /* General Styles */
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('/img/photo-1626775238053-4315516eedc9.jfif') no-repeat center center fixed; /* Replace with your background image */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+/* Start Container */
+.start-container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Heading Styles */
+.game-title {
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-family: 'Cursive', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* Paragraph Styles */
+.welcome-text {
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Button Styles */
+.start-button {
+    background-color: #ff6347; /* Tomato color */
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Cursive', sans-serif;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.start-button:hover {
+    background-color: #ff4500; /* OrangeRed color */
+    transform: translateY(-2px);
+}
