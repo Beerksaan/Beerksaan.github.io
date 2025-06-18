@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #333;
+}
+
+
+header {
+    background-color: rgb(90, 90, 90);
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    margin: 0;
+    background-color: #222;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+.navbar li {
+    margin: 0 18px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+    padding-bottom: 4px;
+}
+
+.navbar a:hover {
+    color: #3498db;
+    border-bottom: 2px solid #3498db;
+}
+
+
+main {
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contact-form {
+    background: white;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+
+}
+
+footer svg {
+    margin: 0 10px;
+    fill: white;
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s ease;
+}
+
+footer svg:hover {
+    transform: scale(1.2);
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.routekaart{
+    width: 400px;
+    height: 250px;
+}

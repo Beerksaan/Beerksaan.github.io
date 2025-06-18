@@ -1,0 +1,15 @@
+:root {
+    --text-color: black;
+    --bg-color: #f2f2f2;
+}
+
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}

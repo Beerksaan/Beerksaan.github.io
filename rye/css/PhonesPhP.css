@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700|Poppins:400,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #333;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #212125;
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+header .logo-container {
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 15px;
+}
+
+header .logo-container img {
+    max-width: 150px;
+    height: auto;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+p.tagline {
+    font-size: 1.25rem;
+    color: #cccccc;
+    margin-bottom: 40px;
+    text-align: center;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar {
+    background-color: #222;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+.navbar li {
+    margin: 0 18px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+    padding-bottom: 4px;
+}
+
+.navbar a:hover {
+    color: #3498db;
+    border-bottom: 2px solid #3498db;
+}
+
+.main {
+    padding: 60px 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #666;
+    letter-spacing: 1px;
+    margin-left: 650px;
+}
+
+.image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.image-css {
+    width: 100%;
+    max-width: 220px;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.image-css:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+footer {
+    background-color: #333;
+    color: #ccc;
+    padding: 40px 20px;
+    text-align: center;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+}
+
+footer a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #2980b9;
+}
+
+@media (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column;
+    }
+    .navbar li {
+        margin: 10px 0;
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 1.6rem;
+    }
+    .image-wrapper {
+        gap: 20px;
+    }
+}
